@@ -1,78 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-17T14:07:18 IST" name="Suite" finished-at="2025-11-17T14:07:55 IST" duration-ms="37292">
+  <suite started-at="2025-11-21T12:38:51 IST" name="Suite" finished-at="2025-11-21T12:40:23 IST" duration-ms="92163">
     <groups>
     </groups>
-    <test started-at="2025-11-17T14:07:18 IST" name="Test" finished-at="2025-11-17T14:07:55 IST" duration-ms="37292">
+    <test started-at="2025-11-21T12:38:51 IST" name="Test" finished-at="2025-11-21T12:40:23 IST" duration-ms="92163">
       <class name="tests.PortalLoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PortalLoginTest@15eb5ee5]" started-at="2025-11-17T14:07:18 IST" name="setUp" finished-at="2025-11-17T14:07:38 IST" duration-ms="19780" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:38:51 IST" name="setUp" finished-at="2025-11-21T12:39:06 IST" duration-ms="15210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidLoginTest1()[pri:1, instance:tests.PortalLoginTest@15eb5ee5]" started-at="2025-11-17T14:07:38 IST" name="invalidLoginTest1" finished-at="2025-11-17T14:07:45 IST" duration-ms="6997" status="PASS">
+        <test-method signature="invalidLoginTest1()[pri:1, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:06 IST" name="invalidLoginTest1" finished-at="2025-11-21T12:39:11 IST" duration-ms="4994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest1 -->
-        <test-method signature="invalidLoginTest2()[pri:2, instance:tests.PortalLoginTest@15eb5ee5]" started-at="2025-11-17T14:07:45 IST" name="invalidLoginTest2" finished-at="2025-11-17T14:07:47 IST" duration-ms="2286" status="PASS">
+        <test-method signature="invalidLoginTest2()[pri:2, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:11 IST" name="invalidLoginTest2" finished-at="2025-11-21T12:39:13 IST" duration-ms="1840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest2 -->
-        <test-method signature="invalidLoginTest3()[pri:3, instance:tests.PortalLoginTest@15eb5ee5]" started-at="2025-11-17T14:07:47 IST" name="invalidLoginTest3" finished-at="2025-11-17T14:07:53 IST" duration-ms="5898" status="PASS">
+        <test-method signature="invalidLoginTest3()[pri:3, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:13 IST" name="invalidLoginTest3" finished-at="2025-11-21T12:39:17 IST" duration-ms="3900" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest3 -->
-        <test-method signature="ValidloginTest()[pri:4, instance:tests.PortalLoginTest@15eb5ee5]" started-at="2025-11-17T14:07:53 IST" name="ValidloginTest" finished-at="2025-11-17T14:07:55 IST" duration-ms="2113" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Login failed or dashboard not reached. expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Login failed or dashboard not reached. expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at tests.PortalLoginTest.ValidloginTest(PortalLoginTest.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="blankEmailLoginTest1()[pri:4, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:17 IST" name="blankEmailLoginTest1" finished-at="2025-11-21T12:39:19 IST" duration-ms="2107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankEmailLoginTest1 -->
+        <test-method signature="blankPasswordLoginTest()[pri:5, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:19 IST" name="blankPasswordLoginTest" finished-at="2025-11-21T12:39:21 IST" duration-ms="2332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankPasswordLoginTest -->
+        <test-method signature="ForgotPasswordLinkRedirection()[pri:6, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:21 IST" name="ForgotPasswordLinkRedirection" finished-at="2025-11-21T12:39:24 IST" duration-ms="2888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPasswordLinkRedirection -->
+        <test-method signature="ForgotPasswordPage_EmptyEmail_Click()[pri:7, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:24 IST" name="ForgotPasswordPage_EmptyEmail_Click" finished-at="2025-11-21T12:39:29 IST" duration-ms="4948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPasswordPage_EmptyEmail_Click -->
+        <test-method signature="ValidloginTest()[pri:8, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:29 IST" name="ValidloginTest" finished-at="2025-11-21T12:39:40 IST" duration-ms="10838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidloginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:40 IST" name="tearDown" finished-at="2025-11-21T12:39:41 IST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- tests.PortalLoginTest -->
+      <class name="tests.ServicesPage_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ServicesPage_Test@3835c46]" started-at="2025-11-21T12:39:41 IST" name="setUp" finished-at="2025-11-21T12:39:54 IST" duration-ms="12839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="viewServices_Redirection()[pri:1, instance:tests.ServicesPage_Test@3835c46]" started-at="2025-11-21T12:39:54 IST" name="viewServices_Redirection" finished-at="2025-11-21T12:40:01 IST" duration-ms="7315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewServices_Redirection -->
+        <test-method signature="pagination()[pri:2, instance:tests.ServicesPage_Test@3835c46]" started-at="2025-11-21T12:40:01 IST" name="pagination" finished-at="2025-11-21T12:40:23 IST" duration-ms="21604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagination -->
+      </class> <!-- tests.ServicesPage_Test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

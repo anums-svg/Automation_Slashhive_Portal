@@ -1,2 +1,3 @@
 pages\LoginPage.class
 utils\ConfigReader.class
+pages\ServicesPage.class

@@ -11,19 +11,21 @@ public class LoginPage {
 	By passwordField = By.xpath("//input[@name='password']");
 	By signInButton = By.xpath("//button[contains(text(),'Sign in')]");
 	By logoLocator = By.xpath("//img[contains(@alt, 'bobcares logo')]");
+	By forgotPassword = By.xpath("//a[text()='Forgot Password?']");
+	By ResetButton = By.xpath("//button[@type='submit']");
 
 	// Constructor
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 	}
 
-	public boolean isLogoDisplayed() {
-		try {
-			return driver.findElement(logoLocator).isDisplayed();
-		} catch (Exception e) {
-			return false; // Element not found
-		}
-	}
+//	public boolean isLogoDisplayed() {
+//		try {
+//			return driver.findElement(logoLocator).isDisplayed();
+//		} catch (Exception e) {
+//			return false; // Element not found
+//		}
+//	}
 
 	// Actions
 	public void setInvalidEmail(String invalid_Email) {
@@ -52,4 +54,13 @@ public class LoginPage {
 	public void clearEmail() {
 		driver.findElement(emailField).clear();
 	}
+
+	public void forgotPassword() {
+		driver.findElement(forgotPassword).click();
+	}
+
+	public void ResetButton() {
+		driver.findElement(ResetButton).click();
+	}
+
 }

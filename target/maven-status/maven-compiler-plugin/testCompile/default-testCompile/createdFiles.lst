@@ -1,1 +1,3 @@
 tests\PortalLoginTest.class
+tests\BaseTest.class
+tests\ServicesPage_Test.class
