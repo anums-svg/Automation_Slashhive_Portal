@@ -24,6 +24,7 @@ public class PortalLoginTest {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://portal.bobcares.com/login");
+		
 		loginPage = new LoginPage(driver);
 		config = new ConfigReader();
 	}

@@ -1,66 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="38" passed="37" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-21T12:38:51 IST" name="Suite" finished-at="2025-11-21T12:40:23 IST" duration-ms="92163">
+  <suite started-at="2026-05-19T15:22:56 IST" name="Suite" finished-at="2026-05-19T15:29:38 IST" duration-ms="402073">
     <groups>
     </groups>
-    <test started-at="2025-11-21T12:38:51 IST" name="Test" finished-at="2025-11-21T12:40:23 IST" duration-ms="92163">
-      <class name="tests.PortalLoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:38:51 IST" name="setUp" finished-at="2025-11-21T12:39:06 IST" duration-ms="15210" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="invalidLoginTest1()[pri:1, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:06 IST" name="invalidLoginTest1" finished-at="2025-11-21T12:39:11 IST" duration-ms="4994" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLoginTest1 -->
-        <test-method signature="invalidLoginTest2()[pri:2, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:11 IST" name="invalidLoginTest2" finished-at="2025-11-21T12:39:13 IST" duration-ms="1840" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLoginTest2 -->
-        <test-method signature="invalidLoginTest3()[pri:3, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:13 IST" name="invalidLoginTest3" finished-at="2025-11-21T12:39:17 IST" duration-ms="3900" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLoginTest3 -->
-        <test-method signature="blankEmailLoginTest1()[pri:4, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:17 IST" name="blankEmailLoginTest1" finished-at="2025-11-21T12:39:19 IST" duration-ms="2107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- blankEmailLoginTest1 -->
-        <test-method signature="blankPasswordLoginTest()[pri:5, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:19 IST" name="blankPasswordLoginTest" finished-at="2025-11-21T12:39:21 IST" duration-ms="2332" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- blankPasswordLoginTest -->
-        <test-method signature="ForgotPasswordLinkRedirection()[pri:6, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:21 IST" name="ForgotPasswordLinkRedirection" finished-at="2025-11-21T12:39:24 IST" duration-ms="2888" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ForgotPasswordLinkRedirection -->
-        <test-method signature="ForgotPasswordPage_EmptyEmail_Click()[pri:7, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:24 IST" name="ForgotPasswordPage_EmptyEmail_Click" finished-at="2025-11-21T12:39:29 IST" duration-ms="4948" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ForgotPasswordPage_EmptyEmail_Click -->
-        <test-method signature="ValidloginTest()[pri:8, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:29 IST" name="ValidloginTest" finished-at="2025-11-21T12:39:40 IST" duration-ms="10838" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidloginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PortalLoginTest@50eac852]" started-at="2025-11-21T12:39:40 IST" name="tearDown" finished-at="2025-11-21T12:39:41 IST" duration-ms="1095" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.PortalLoginTest -->
+    <test started-at="2026-05-19T15:22:56 IST" name="Test" finished-at="2026-05-19T15:29:38 IST" duration-ms="402073">
       <class name="tests.ServicesPage_Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ServicesPage_Test@3835c46]" started-at="2025-11-21T12:39:41 IST" name="setUp" finished-at="2025-11-21T12:39:54 IST" duration-ms="12839" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:22:56 IST" name="setUp" finished-at="2026-05-19T15:23:10 IST" duration-ms="14396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="viewServices_Redirection()[pri:1, instance:tests.ServicesPage_Test@3835c46]" started-at="2025-11-21T12:39:54 IST" name="viewServices_Redirection" finished-at="2025-11-21T12:40:01 IST" duration-ms="7315" status="PASS">
+        <test-method signature="viewServices_Redirection()[pri:1, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:23:10 IST" name="viewServices_Redirection" finished-at="2026-05-19T15:23:12 IST" duration-ms="1803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewServices_Redirection -->
-        <test-method signature="pagination()[pri:2, instance:tests.ServicesPage_Test@3835c46]" started-at="2025-11-21T12:40:01 IST" name="pagination" finished-at="2025-11-21T12:40:23 IST" duration-ms="21604" status="PASS">
+        <test-method signature="pagination()[pri:2, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:23:12 IST" name="pagination" finished-at="2026-05-19T15:23:27 IST" duration-ms="15527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pagination -->
+        <test-method signature="Add_Services_Redirection()[pri:3, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:23:27 IST" name="Add_Services_Redirection" finished-at="2026-05-19T15:23:29 IST" duration-ms="1472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Services_Redirection -->
+        <test-method signature="viewDashboard_Redirection()[pri:4, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:23:29 IST" name="viewDashboard_Redirection" finished-at="2026-05-19T15:23:32 IST" duration-ms="3097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewDashboard_Redirection -->
+        <test-method signature="viewServerManagement_Redirection()[pri:5, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:23:32 IST" name="viewServerManagement_Redirection" finished-at="2026-05-19T15:23:32 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewServerManagement_Redirection -->
+        <test-method signature="SeeMoreLink_ServerManagement_Redirection()[pri:6, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:23:32 IST" name="SeeMoreLink_ServerManagement_Redirection" finished-at="2026-05-19T15:23:35 IST" duration-ms="2595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeeMoreLink_ServerManagement_Redirection -->
+        <test-method signature="ServerManagementMonitoringQuarterlyPlanCheck()[pri:7, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:23:35 IST" name="ServerManagementMonitoringQuarterlyPlanCheck" finished-at="2026-05-19T15:24:05 IST" duration-ms="30471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServerManagementMonitoringQuarterlyPlanCheck -->
+        <test-method signature="ServerManagementMonitoringAnnuallyPlanCheck()[pri:8, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:24:05 IST" name="ServerManagementMonitoringAnnuallyPlanCheck" finished-at="2026-05-19T15:24:39 IST" duration-ms="34302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServerManagementMonitoringAnnuallyPlanCheck -->
+        <test-method signature="SeeMoreLink_Limitless_Server_Management_Redirection()[pri:9, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:24:39 IST" name="SeeMoreLink_Limitless_Server_Management_Redirection" finished-at="2026-05-19T15:24:42 IST" duration-ms="3021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeeMoreLink_Limitless_Server_Management_Redirection -->
+        <test-method signature="Limitless_Server_Management_QuarterlyPlanCheck()[pri:10, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:24:42 IST" name="Limitless_Server_Management_QuarterlyPlanCheck" finished-at="2026-05-19T15:25:08 IST" duration-ms="25885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Limitless_Server_Management_QuarterlyPlanCheck -->
+        <test-method signature="Limitless_Server_Management_AnnuallyPlanCheck()[pri:11, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:25:08 IST" name="Limitless_Server_Management_AnnuallyPlanCheck" finished-at="2026-05-19T15:25:34 IST" duration-ms="25299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Limitless_Server_Management_AnnuallyPlanCheck -->
+        <test-method signature="SeeMoreLink_Limitless_Priority_Support_Redirection()[pri:12, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:25:34 IST" name="SeeMoreLink_Limitless_Priority_Support_Redirection" finished-at="2026-05-19T15:25:37 IST" duration-ms="2968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeeMoreLink_Limitless_Priority_Support_Redirection -->
+        <test-method signature="Limitless_Priority_Support_QuarterlyPlanCheck()[pri:13, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:25:37 IST" name="Limitless_Priority_Support_QuarterlyPlanCheck" finished-at="2026-05-19T15:26:02 IST" duration-ms="25203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Limitless_Priority_Support_QuarterlyPlanCheck -->
+        <test-method signature="Limitless_Priority_Support_AnnuallyPlanCheck()[pri:14, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:26:02 IST" name="Limitless_Priority_Support_AnnuallyPlanCheck" finished-at="2026-05-19T15:26:27 IST" duration-ms="25661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Limitless_Priority_Support_AnnuallyPlanCheck -->
+        <test-method signature="Vulnerability_ScanPlanCheck()[pri:15, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:26:27 IST" name="Vulnerability_ScanPlanCheck" finished-at="2026-05-19T15:26:50 IST" duration-ms="22683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vulnerability_ScanPlanCheck -->
+        <test-method signature="Affordable_MonitoringPlanCheck()[pri:16, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:26:50 IST" name="Affordable_MonitoringPlanCheck" finished-at="2026-05-19T15:27:13 IST" duration-ms="22651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Affordable_MonitoringPlanCheck -->
+        <test-method signature="view_Outsourced_SupportRedirection()[pri:17, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:27:13 IST" name="view_Outsourced_SupportRedirection" finished-at="2026-05-19T15:27:13 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- view_Outsourced_SupportRedirection -->
+        <test-method signature="Request_A_quote_Dedicated_Support_Engineers_Redirection()[pri:18, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:27:13 IST" name="Request_A_quote_Dedicated_Support_Engineers_Redirection" finished-at="2026-05-19T15:27:16 IST" duration-ms="3282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Request_A_quote_Dedicated_Support_Engineers_Redirection -->
+        <test-method signature="RequestAQuote_Dedicated_Support_Engineers_SubjectDisplayCheck()[pri:19, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:27:16 IST" name="RequestAQuote_Dedicated_Support_Engineers_SubjectDisplayCheck" finished-at="2026-05-19T15:27:16 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestAQuote_Dedicated_Support_Engineers_SubjectDisplayCheck -->
+        <test-method signature="RequestAQuote_Dedicated_Support_Engineers_MandatoryValidationCheck()[pri:20, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:27:16 IST" name="RequestAQuote_Dedicated_Support_Engineers_MandatoryValidationCheck" finished-at="2026-05-19T15:27:19 IST" duration-ms="2784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestAQuote_Dedicated_Support_Engineers_MandatoryValidationCheck -->
+        <test-method signature="RequestAQuote_Dedicated_Support_Engineers_FormSubmission()[pri:21, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:27:19 IST" name="RequestAQuote_Dedicated_Support_Engineers_FormSubmission" finished-at="2026-05-19T15:27:23 IST" duration-ms="3804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestAQuote_Dedicated_Support_Engineers_FormSubmission -->
+        <test-method signature="RequestAQuote_Dedicated_Support_Engineers_ViewTicket()[pri:22, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:27:23 IST" name="RequestAQuote_Dedicated_Support_Engineers_ViewTicket" finished-at="2026-05-19T15:27:25 IST" duration-ms="2056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestAQuote_Dedicated_Support_Engineers_ViewTicket -->
+        <test-method signature="Request_A_quote_DedicatedSupportTeamRedirection()[pri:23, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:27:25 IST" name="Request_A_quote_DedicatedSupportTeamRedirection" finished-at="2026-05-19T15:27:29 IST" duration-ms="4350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Request_A_quote_DedicatedSupportTeamRedirection -->
+        <test-method signature="RequestAQuote_Dedicated_Support_Team_Subject_MandatoryFieldCheck()[pri:24, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:27:29 IST" name="RequestAQuote_Dedicated_Support_Team_Subject_MandatoryFieldCheck" finished-at="2026-05-19T15:27:31 IST" duration-ms="2324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestAQuote_Dedicated_Support_Team_Subject_MandatoryFieldCheck -->
+        <test-method signature="RequestAQuote_Dedicated_Support_Team_FormSubmission()[pri:25, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:27:31 IST" name="RequestAQuote_Dedicated_Support_Team_FormSubmission" finished-at="2026-05-19T15:27:51 IST" duration-ms="20000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestAQuote_Dedicated_Support_Team_FormSubmission -->
+        <test-method signature="Request_A_quote_Semidedicated_SupportRedirection()[pri:26, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:27:51 IST" name="Request_A_quote_Semidedicated_SupportRedirection" finished-at="2026-05-19T15:27:56 IST" duration-ms="4893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Request_A_quote_Semidedicated_SupportRedirection -->
+        <test-method signature="RequestAQuote_Semidedicated_Support_Subject_MandatoryFieldCheck()[pri:27, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:27:56 IST" name="RequestAQuote_Semidedicated_Support_Subject_MandatoryFieldCheck" finished-at="2026-05-19T15:27:59 IST" duration-ms="2343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestAQuote_Semidedicated_Support_Subject_MandatoryFieldCheck -->
+        <test-method signature="RequestAQuote_Semidedicated_Support_FormSubmission()[pri:28, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:27:59 IST" name="RequestAQuote_Semidedicated_Support_FormSubmission" finished-at="2026-05-19T15:28:06 IST" duration-ms="6885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestAQuote_Semidedicated_Support_FormSubmission -->
+        <test-method signature="Request_A_quote_Shared_SupportRedirection()[pri:29, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:28:06 IST" name="Request_A_quote_Shared_SupportRedirection" finished-at="2026-05-19T15:28:10 IST" duration-ms="4456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Request_A_quote_Shared_SupportRedirection -->
+        <test-method signature="RequestAQuote_Shared_Support_Subject_MandatoryFieldCheck()[pri:30, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:28:10 IST" name="RequestAQuote_Shared_Support_Subject_MandatoryFieldCheck" finished-at="2026-05-19T15:28:12 IST" duration-ms="2240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestAQuote_Shared_Support_Subject_MandatoryFieldCheck -->
+        <test-method signature="RequestAQuote_Shared_Support_FormSubmission()[pri:31, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:28:12 IST" name="RequestAQuote_Shared_Support_FormSubmission" finished-at="2026-05-19T15:28:18 IST" duration-ms="6064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestAQuote_Shared_Support_FormSubmission -->
+        <test-method signature="Request_A_quote_Outsourced_Phone_SupportRedirection()[pri:32, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:28:18 IST" name="Request_A_quote_Outsourced_Phone_SupportRedirection" finished-at="2026-05-19T15:28:22 IST" duration-ms="3846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Request_A_quote_Outsourced_Phone_SupportRedirection -->
+        <test-method signature="Minutes_Per_Month_Outsourced_Phone_SupportCheck()[pri:33, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:28:22 IST" name="Minutes_Per_Month_Outsourced_Phone_SupportCheck" finished-at="2026-05-19T15:28:45 IST" duration-ms="22639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Minutes_Per_Month_Outsourced_Phone_SupportCheck -->
+        <test-method signature="Calls_Per_Month_Outsourced_Phone_SupportCheck()[pri:34, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:28:45 IST" name="Calls_Per_Month_Outsourced_Phone_SupportCheck" finished-at="2026-05-19T15:29:07 IST" duration-ms="22523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calls_Per_Month_Outsourced_Phone_SupportCheck -->
+        <test-method signature="RequestAQuote_AllIn_One_Hosting_SupportRedirection()[pri:35, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:29:07 IST" name="RequestAQuote_AllIn_One_Hosting_SupportRedirection" finished-at="2026-05-19T15:29:12 IST" duration-ms="4877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestAQuote_AllIn_One_Hosting_SupportRedirection -->
+        <test-method signature="RequestAQuote_AllIn_One_Hosting_Subject_MandatoryFieldCheck()[pri:36, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:29:12 IST" name="RequestAQuote_AllIn_One_Hosting_Subject_MandatoryFieldCheck" finished-at="2026-05-19T15:29:15 IST" duration-ms="2758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestAQuote_AllIn_One_Hosting_Subject_MandatoryFieldCheck -->
+        <test-method signature="RequestAQuote_AllIn_One_Hosting_FormSubmission()[pri:37, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:29:15 IST" name="RequestAQuote_AllIn_One_Hosting_FormSubmission" finished-at="2026-05-19T15:29:22 IST" duration-ms="6802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestAQuote_AllIn_One_Hosting_FormSubmission -->
+        <test-method signature="view_CloudSupport_PlansRedirection()[pri:38, instance:tests.ServicesPage_Test@19bb07ed]" started-at="2026-05-19T15:29:22 IST" name="view_CloudSupport_PlansRedirection" finished-at="2026-05-19T15:29:38 IST" duration-ms="15886" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for url to contain "https://portal.bobcares.com/plans". Current url: "https://portal.bobcares.com/ticket-add" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-23-generic', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46149/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3111a69e66b6b3e08ec86500c6d59122]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "https://portal.bobcares.com/plans". Current url: "https://portal.bobcares.com/ticket-add" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-23-generic', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46149/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3111a69e66b6b3e08ec86500c6d59122
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at tests.ServicesPage_Test.view_CloudSupport_PlansRedirection(ServicesPage_Test.java:545)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- view_CloudSupport_PlansRedirection -->
       </class> <!-- tests.ServicesPage_Test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
