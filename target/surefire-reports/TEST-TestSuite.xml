@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="402.483" tests="38" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="436.479" tests="41" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/snap/eclipse/132/usr/lib/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.10.v20260205-0638/jre/lib"/>
-    <property name="sun.java.command" value="/home/poornam/git/BobPortal_Automation/target/surefire/surefirebooter-20260519152255775_3.jar /home/poornam/git/BobPortal_Automation/target/surefire 2026-05-19T15-22-55_693-jvmRun1 surefire-20260519152255775_1tmp surefire_0-20260519152255775_2tmp"/>
+    <property name="sun.java.command" value="/home/poornam/git/BobPortal_Automation/target/surefire/surefirebooter-20260520101431187_3.jar /home/poornam/git/BobPortal_Automation/target/surefire 2026-05-20T10-14-31_125-jvmRun1 surefire-20260520101431187_1tmp surefire_0-20260520101431187_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/poornam/git/BobPortal_Automation/target/test-classes:/home/poornam/git/BobPortal_Automation/target/classes:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-java/4.29.0/selenium-java-4.29.0.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-api/4.29.0/selenium-api-4.29.0.jar:/home/poornam/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.29.0/selenium-chrome-driver-4.29.0.jar:/home/poornam/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.29.0/selenium-chromium-driver-4.29.0.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-json/4.29.0/selenium-json-4.29.0.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.29.0/selenium-manager-4.29.0.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.29.0/selenium-devtools-v131-4.29.0.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.29.0/selenium-devtools-v132-4.29.0.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v133/4.29.0/selenium-devtools-v133-4.29.0.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.29.0/selenium-devtools-v85-4.29.0.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.29.0/selenium-edge-driver-4.29.0.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.29.0/selenium-firefox-driver-4.29.0.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-http/4.29.0/selenium-http-4.29.0.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.29.0/selenium-ie-driver-4.29.0.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.29.0/selenium-remote-driver-4.29.0.jar:/home/poornam/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/home/poornam/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/poornam/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/poornam/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/poornam/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/home/poornam/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/home/poornam/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/poornam/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/home/poornam/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/home/poornam/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/home/poornam/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/home/poornam/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/home/poornam/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/home/poornam/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/home/poornam/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/home/poornam/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/home/poornam/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/home/poornam/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/home/poornam/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/home/poornam/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-os/4.29.0/selenium-os-4.29.0.jar:/home/poornam/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.29.0/selenium-safari-driver-4.29.0.jar:/home/poornam/.m2/repository/org/seleniumhq/selenium/selenium-support/4.29.0/selenium-support-4.29.0.jar:/home/poornam/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/home/poornam/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/poornam/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/poornam/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/poornam/git/BobPortal_Automation/target/surefire/surefirebooter-20260519152255775_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/poornam/git/BobPortal_Automation/target/surefire/surefirebooter-20260520101431187_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.10+7-LTS"/>
     <property name="user.name" value="poornam"/>
@@ -55,182 +55,197 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="viewServices_Redirection" classname="tests.ServicesPage_Test" time="1.805">
+  <testcase name="viewServices_Redirection" classname="tests.ServicesPage_Test" time="1.642">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-May 19, 2026 3:22:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 20, 2026 10:14:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-May 19, 2026 3:22:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+May 20, 2026 10:14:32 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 126.0.6478.126. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.29.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="pagination" classname="tests.ServicesPage_Test" time="15.528">
+  <testcase name="pagination" classname="tests.ServicesPage_Test" time="17.086">
     <system-out><![CDATA[✔ NEXT page clicked successfully
 ✔ PREVIOUS page clicked successfully
 ✔ LAST page clicked successfully
 ✔ FIRST page clicked successfully
 ]]></system-out>
   </testcase>
-  <testcase name="Add_Services_Redirection" classname="tests.ServicesPage_Test" time="1.473">
+  <testcase name="Add_Services_Redirection" classname="tests.ServicesPage_Test" time="1.574">
     <system-out><![CDATA[✔ Add Services Redirected successfully
 ]]></system-out>
   </testcase>
-  <testcase name="viewDashboard_Redirection" classname="tests.ServicesPage_Test" time="3.097">
+  <testcase name="viewDashboard_Redirection" classname="tests.ServicesPage_Test" time="3.088">
     <system-out><![CDATA[✔ Dashboard Redirected successfully
 ]]></system-out>
   </testcase>
-  <testcase name="viewServerManagement_Redirection" classname="tests.ServicesPage_Test" time="0.062">
+  <testcase name="viewServerManagement_Redirection" classname="tests.ServicesPage_Test" time="0.071">
     <system-out><![CDATA[✔ Server Management Plans Redirected successfully
 ]]></system-out>
   </testcase>
-  <testcase name="SeeMoreLink_ServerManagement_Redirection" classname="tests.ServicesPage_Test" time="2.596">
+  <testcase name="SeeMoreLink_ServerManagement_Redirection" classname="tests.ServicesPage_Test" time="2.695">
     <system-out><![CDATA[✔ See More-Server Management Plans Redirected successfully
 ]]></system-out>
   </testcase>
-  <testcase name="ServerManagementMonitoringQuarterlyPlanCheck" classname="tests.ServicesPage_Test" time="30.471">
+  <testcase name="ServerManagementMonitoringQuarterlyPlanCheck" classname="tests.ServicesPage_Test" time="39.545">
     <system-out><![CDATA[✔ Server Management & Monitoring Quarterly successfully 
 ]]></system-out>
   </testcase>
-  <testcase name="ServerManagementMonitoringAnnuallyPlanCheck" classname="tests.ServicesPage_Test" time="34.302">
+  <testcase name="ServerManagementMonitoringAnnuallyPlanCheck" classname="tests.ServicesPage_Test" time="28.039">
     <system-out><![CDATA[✔ Server Management & Monitoring Annually successfully 
 ]]></system-out>
   </testcase>
-  <testcase name="SeeMoreLink_Limitless_Server_Management_Redirection" classname="tests.ServicesPage_Test" time="3.022">
+  <testcase name="SeeMoreLink_Limitless_Server_Management_Redirection" classname="tests.ServicesPage_Test" time="3.213">
     <system-out><![CDATA[✔ See More-Limitless Server Management Redirected successfully
 ]]></system-out>
   </testcase>
-  <testcase name="Limitless_Server_Management_QuarterlyPlanCheck" classname="tests.ServicesPage_Test" time="25.884">
+  <testcase name="Limitless_Server_Management_QuarterlyPlanCheck" classname="tests.ServicesPage_Test" time="26.359">
     <system-out><![CDATA[✔ Limitless Server Management Quarterly successfully 
 ]]></system-out>
   </testcase>
-  <testcase name="Limitless_Server_Management_AnnuallyPlanCheck" classname="tests.ServicesPage_Test" time="25.299">
+  <testcase name="Limitless_Server_Management_AnnuallyPlanCheck" classname="tests.ServicesPage_Test" time="27.292">
     <system-out><![CDATA[✔ Limitless Server Management Annually successfully 
 ]]></system-out>
   </testcase>
-  <testcase name="SeeMoreLink_Limitless_Priority_Support_Redirection" classname="tests.ServicesPage_Test" time="2.969">
+  <testcase name="SeeMoreLink_Limitless_Priority_Support_Redirection" classname="tests.ServicesPage_Test" time="3.17">
     <system-out><![CDATA[✔ See More-Limitless Priority Support Redirected successfully
 ]]></system-out>
   </testcase>
-  <testcase name="Limitless_Priority_Support_QuarterlyPlanCheck" classname="tests.ServicesPage_Test" time="25.204">
+  <testcase name="Limitless_Priority_Support_QuarterlyPlanCheck" classname="tests.ServicesPage_Test" time="25.945">
     <system-out><![CDATA[✔ Limitless Priority Support Quarterly successfully 
 ]]></system-out>
   </testcase>
-  <testcase name="Limitless_Priority_Support_AnnuallyPlanCheck" classname="tests.ServicesPage_Test" time="25.662">
+  <testcase name="Limitless_Priority_Support_AnnuallyPlanCheck" classname="tests.ServicesPage_Test" time="27.359">
     <system-out><![CDATA[✔ Limitless Priority Support Annually successfully 
 ]]></system-out>
   </testcase>
-  <testcase name="Vulnerability_ScanPlanCheck" classname="tests.ServicesPage_Test" time="22.683">
+  <testcase name="Vulnerability_ScanPlanCheck" classname="tests.ServicesPage_Test" time="23.169">
     <system-out><![CDATA[✔ Vulnerability Scan - Pay As You Go successfully 
 ]]></system-out>
   </testcase>
-  <testcase name="Affordable_MonitoringPlanCheck" classname="tests.ServicesPage_Test" time="22.652">
+  <testcase name="Affordable_MonitoringPlanCheck" classname="tests.ServicesPage_Test" time="24.044">
     <system-out><![CDATA[✔ Affordable Monitoring successfully 
 ]]></system-out>
   </testcase>
-  <testcase name="view_Outsourced_SupportRedirection" classname="tests.ServicesPage_Test" time="0.092">
+  <testcase name="view_Outsourced_SupportRedirection" classname="tests.ServicesPage_Test" time="0.095">
     <system-out><![CDATA[✔ Outsourced Support Service Redirected successfully
 ]]></system-out>
   </testcase>
-  <testcase name="Request_A_quote_Dedicated_Support_Engineers_Redirection" classname="tests.ServicesPage_Test" time="3.281">
+  <testcase name="Request_A_quote_Dedicated_Support_Engineers_Redirection" classname="tests.ServicesPage_Test" time="3.068">
     <system-out><![CDATA[✔ Request a quote - Dedicated Support Engineers Redirected successfully
 ]]></system-out>
   </testcase>
-  <testcase name="RequestAQuote_Dedicated_Support_Engineers_SubjectDisplayCheck" classname="tests.ServicesPage_Test" time="0.02">
+  <testcase name="RequestAQuote_Dedicated_Support_Engineers_SubjectDisplayCheck" classname="tests.ServicesPage_Test" time="0.018">
     <system-out><![CDATA[✔ Subject displayed successfully - Request A Quote Dedicated Support Engineers
 ]]></system-out>
   </testcase>
-  <testcase name="RequestAQuote_Dedicated_Support_Engineers_MandatoryValidationCheck" classname="tests.ServicesPage_Test" time="2.785">
+  <testcase name="RequestAQuote_Dedicated_Support_Engineers_MandatoryValidationCheck" classname="tests.ServicesPage_Test" time="2.86">
     <system-out><![CDATA[✔ Validation message displayed successfully- Request A Quote Dedicated Support Engineers
 ]]></system-out>
   </testcase>
-  <testcase name="RequestAQuote_Dedicated_Support_Engineers_FormSubmission" classname="tests.ServicesPage_Test" time="3.805">
+  <testcase name="RequestAQuote_Dedicated_Support_Engineers_FormSubmission" classname="tests.ServicesPage_Test" time="9.009">
     <system-out><![CDATA[✔ Success Page displayed successfully- Request A Quote Dedicated Support Engineers
 ]]></system-out>
   </testcase>
-  <testcase name="RequestAQuote_Dedicated_Support_Engineers_ViewTicket" classname="tests.ServicesPage_Test" time="2.057">
+  <testcase name="RequestAQuote_Dedicated_Support_Engineers_ViewTicket" classname="tests.ServicesPage_Test" time="2.121">
     <system-out><![CDATA[✔ View Ticket- Dedicated_Support_EngineersNote displayed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="Request_A_quote_DedicatedSupportTeamRedirection" classname="tests.ServicesPage_Test" time="4.35">
+  <testcase name="Request_A_quote_DedicatedSupportTeamRedirection" classname="tests.ServicesPage_Test" time="5.206">
     <system-out><![CDATA[✔ Request a quote - Dedicated Support Team  Redirected successfully
 ]]></system-out>
   </testcase>
-  <testcase name="RequestAQuote_Dedicated_Support_Team_Subject_MandatoryFieldCheck" classname="tests.ServicesPage_Test" time="2.325">
+  <testcase name="RequestAQuote_Dedicated_Support_Team_Subject_MandatoryFieldCheck" classname="tests.ServicesPage_Test" time="4.202">
     <system-out><![CDATA[✔ Subject displayed successfully - Request A Quote Dedicated Support Team
 ✔ Validation message displayed successfully- Request A Quote Dedicated Support Team
 ]]></system-out>
   </testcase>
-  <testcase name="RequestAQuote_Dedicated_Support_Team_FormSubmission" classname="tests.ServicesPage_Test" time="19.999">
+  <testcase name="RequestAQuote_Dedicated_Support_Team_FormSubmission" classname="tests.ServicesPage_Test" time="7.46">
     <system-out><![CDATA[✔ Success Page displayed successfully- Request A Quote Dedicated Support Team
 ✔ View Ticket- Dedicated_Support Team Note displayed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="Request_A_quote_Semidedicated_SupportRedirection" classname="tests.ServicesPage_Test" time="4.893">
+  <testcase name="Request_A_quote_Semidedicated_SupportRedirection" classname="tests.ServicesPage_Test" time="4.923">
     <system-out><![CDATA[✔ Request a quote -Semi-dedicated Support  Redirected successfully
 ]]></system-out>
   </testcase>
-  <testcase name="RequestAQuote_Semidedicated_Support_Subject_MandatoryFieldCheck" classname="tests.ServicesPage_Test" time="2.343">
+  <testcase name="RequestAQuote_Semidedicated_Support_Subject_MandatoryFieldCheck" classname="tests.ServicesPage_Test" time="2.349">
     <system-out><![CDATA[✔ Subject displayed successfully - Request A Quote Semi-dedicated Support
 ✔ Validation message displayed successfully- Request A Quote Semi-dedicated Support
 ]]></system-out>
   </testcase>
-  <testcase name="RequestAQuote_Semidedicated_Support_FormSubmission" classname="tests.ServicesPage_Test" time="6.886">
+  <testcase name="RequestAQuote_Semidedicated_Support_FormSubmission" classname="tests.ServicesPage_Test" time="6.681">
     <system-out><![CDATA[✔ Success Page displayed successfully- Request A Quote Semi-dedicated Support
 ✔ View Ticket- Semi-dedicated Support Note displayed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="Request_A_quote_Shared_SupportRedirection" classname="tests.ServicesPage_Test" time="4.457">
+  <testcase name="Request_A_quote_Shared_SupportRedirection" classname="tests.ServicesPage_Test" time="5.951">
     <system-out><![CDATA[✔ Request a quote -Shared Support Redirected successfully
 ]]></system-out>
   </testcase>
-  <testcase name="RequestAQuote_Shared_Support_Subject_MandatoryFieldCheck" classname="tests.ServicesPage_Test" time="2.241">
+  <testcase name="RequestAQuote_Shared_Support_Subject_MandatoryFieldCheck" classname="tests.ServicesPage_Test" time="2.483">
     <system-out><![CDATA[✔ Subject displayed successfully - Request A Quote Shared Support
 ✔ Validation message displayed successfully- Request A Quote Shared Support
 ]]></system-out>
   </testcase>
-  <testcase name="RequestAQuote_Shared_Support_FormSubmission" classname="tests.ServicesPage_Test" time="6.064">
+  <testcase name="RequestAQuote_Shared_Support_FormSubmission" classname="tests.ServicesPage_Test" time="7.271">
     <system-out><![CDATA[✔ Success Page displayed successfully- Request A Quote Shared Support
 ✔ View Ticket- Shared Support Note displayed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="Request_A_quote_Outsourced_Phone_SupportRedirection" classname="tests.ServicesPage_Test" time="3.846">
+  <testcase name="Request_A_quote_Outsourced_Phone_SupportRedirection" classname="tests.ServicesPage_Test" time="4.136">
     <system-out><![CDATA[✔ Checkout -Outsourced Phone Support successfully
 ]]></system-out>
   </testcase>
-  <testcase name="Minutes_Per_Month_Outsourced_Phone_SupportCheck" classname="tests.ServicesPage_Test" time="22.64">
+  <testcase name="Minutes_Per_Month_Outsourced_Phone_SupportCheck" classname="tests.ServicesPage_Test" time="23.91">
     <system-out><![CDATA[✔ Phone support minutes/month- Outsourced Phone Support Loaded
 ]]></system-out>
   </testcase>
-  <testcase name="Calls_Per_Month_Outsourced_Phone_SupportCheck" classname="tests.ServicesPage_Test" time="22.524">
+  <testcase name="Calls_Per_Month_Outsourced_Phone_SupportCheck" classname="tests.ServicesPage_Test" time="23.796">
     <system-out><![CDATA[✔ Phone Support calls/month - Outsourced Phone Support Loaded
 ]]></system-out>
   </testcase>
-  <testcase name="RequestAQuote_AllIn_One_Hosting_SupportRedirection" classname="tests.ServicesPage_Test" time="4.877">
+  <testcase name="RequestAQuote_AllIn_One_Hosting_SupportRedirection" classname="tests.ServicesPage_Test" time="5.312">
     <system-out><![CDATA[✔ Request a quote -All In One Hosting Support Redirected successfully
 ]]></system-out>
   </testcase>
-  <testcase name="RequestAQuote_AllIn_One_Hosting_Subject_MandatoryFieldCheck" classname="tests.ServicesPage_Test" time="2.759">
+  <testcase name="RequestAQuote_AllIn_One_Hosting_Subject_MandatoryFieldCheck" classname="tests.ServicesPage_Test" time="2.858">
     <system-out><![CDATA[✔ Subject displayed successfully - Request A Quote All In One Hosting Support
 ✔ Validation message displayed successfully- Request A Quote All In One Hosting Support
 ]]></system-out>
   </testcase>
-  <testcase name="RequestAQuote_AllIn_One_Hosting_FormSubmission" classname="tests.ServicesPage_Test" time="6.802">
+  <testcase name="RequestAQuote_AllIn_One_Hosting_FormSubmission" classname="tests.ServicesPage_Test" time="6.271">
     <system-out><![CDATA[✔ Success Page displayed successfully- Request A Quote All In One Hosting Support
 ✔ View Ticket- All In One Hosting Support Note displayed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="view_CloudSupport_PlansRedirection" classname="tests.ServicesPage_Test" time="15.89">
-    <failure message="Expected condition failed: waiting for url to contain &quot;https://portal.bobcares.com/plans&quot;. Current url: &quot;https://portal.bobcares.com/ticket-add&quot; (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-23-generic&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46149/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3111a69e66b6b3e08ec86500c6d59122" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for url to contain "https://portal.bobcares.com/plans". Current url: "https://portal.bobcares.com/ticket-add" (tried for 10 second(s) with 500 milliseconds interval)
+  <testcase name="view_CloudSupport_PlansRedirection" classname="tests.ServicesPage_Test" time="4.53">
+    <system-out><![CDATA[✔ Redirected to Cloud Support - Request A quote
+]]></system-out>
+  </testcase>
+  <testcase name="RequestAQuote_CloudSupport_Subject_MandatoryFieldCheck" classname="tests.ServicesPage_Test" time="2.586">
+    <system-out><![CDATA[✔ Subject displayed successfully - Request A Quote- Cloud Support
+✔ Validation message displayed successfully- Request A Quote- Cloud Support
+]]></system-out>
+  </testcase>
+  <testcase name="RequestAQuote_CloudSupport_FormSubmission" classname="tests.ServicesPage_Test" time="6.57">
+    <system-out><![CDATA[✔ Success Page displayed successfully- Request A Quote- Cloud Support
+✔ View Ticket- Cloud Support- Note displayed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="view_SoftwareDevelopment_Redirection" classname="tests.ServicesPage_Test" time="21.87">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: (//a[@href=&apos;https://portal.bobcares.com/web-dev-design/service-categories&apos;])[1] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-23-generic&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39139}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:39139/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 370a571c6934161f7f9401e426433e6e" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: (//a[@href='https://portal.bobcares.com/web-dev-design/service-categories'])[1] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-23-generic', java.version: '21.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46149/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3111a69e66b6b3e08ec86500c6d59122
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39139}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:39139/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 370a571c6934161f7f9401e426433e6e
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at tests.ServicesPage_Test.view_CloudSupport_PlansRedirection(ServicesPage_Test.java:545)
+	at pages.ServicesPage.Click_Software_Development(ServicesPage.java:336)
+	at tests.ServicesPage_Test.view_SoftwareDevelopment_Redirection(ServicesPage_Test.java:587)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)

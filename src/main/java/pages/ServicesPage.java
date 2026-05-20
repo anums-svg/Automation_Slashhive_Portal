@@ -112,7 +112,7 @@ public class ServicesPage {
 	private By RequestAQuoteCloudSupport = By.xpath("//a[@href='https://portal.bobcares.com/request-a-quote/3/11']");
 	
 	// 4 Software Development Plans
-	private By RequestAQuote_SoftwareDevelopment = By.xpath("//a[@href='https://portal.bobcares.com/web-dev-design/service-categories']");
+	private By RequestAQuote_SoftwareDevelopment = By.xpath("(//a[@href='https://portal.bobcares.com/web-dev-design/service-categories'])[1]");
 
 	public ServicesPage(WebDriver driver) {
 		this.driver = driver;

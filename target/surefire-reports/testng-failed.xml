@@ -5,7 +5,7 @@
     <classes>
       <class name="tests.ServicesPage_Test">
         <methods>
-          <include name="view_CloudSupport_PlansRedirection"/>
+          <include name="view_SoftwareDevelopment_Redirection"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- tests.ServicesPage_Test -->

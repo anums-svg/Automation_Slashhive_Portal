@@ -1,18 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 38, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 402.5 s <<< FAILURE! -- in TestSuite
-tests.ServicesPage_Test.view_CloudSupport_PlansRedirection -- Time elapsed: 15.89 s <<< FAILURE!
+Tests run: 41, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 436.5 s <<< FAILURE! -- in TestSuite
+tests.ServicesPage_Test.view_SoftwareDevelopment_Redirection -- Time elapsed: 21.87 s <<< FAILURE!
 org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for url to contain "https://portal.bobcares.com/plans". Current url: "https://portal.bobcares.com/ticket-add" (tried for 10 second(s) with 500 milliseconds interval)
+Expected condition failed: waiting for element to be clickable: By.xpath: (//a[@href='https://portal.bobcares.com/web-dev-design/service-categories'])[1] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-23-generic', java.version: '21.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46149/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3111a69e66b6b3e08ec86500c6d59122
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39139}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:39139/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 370a571c6934161f7f9401e426433e6e
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at tests.ServicesPage_Test.view_CloudSupport_PlansRedirection(ServicesPage_Test.java:545)
+	at pages.ServicesPage.Click_Software_Development(ServicesPage.java:336)
+	at tests.ServicesPage_Test.view_SoftwareDevelopment_Redirection(ServicesPage_Test.java:587)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
