@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>40/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>41/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 20 10:14:31 IST 2026</td>
+<td>Started on:</td><td>Wed May 20 10:53:15 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>436 seconds (436076 ms)</td>
+<tr><td>Total time:</td><td>393 seconds (393418 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,72 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='tests.ServicesPage_Test.view_SoftwareDevelopment_Redirection()'><b>view_SoftwareDevelopment_Redirection</b><br>Test class: tests.ServicesPage_Test</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//a[@href=&apos;https://portal.bobcares.com/web-dev-design/service-categories&apos;])[1] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-23-generic&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39139}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:39139/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 370a571c6934161f7f9401e426433e6e
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at pages.ServicesPage.Click_Software_Development(ServicesPage.java:336)
-	at tests.ServicesPage_Test.view_SoftwareDevelopment_Redirection(ServicesPage_Test.java:587)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1487540468", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1487540468'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//a[@href=&apos;https://portal.bobcares.com/web-dev-design/service-categories&apos;])[1] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-23-generic&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39139}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:39139/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 370a571c6934161f7f9401e426433e6e
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at pages.ServicesPage.Click_Software_Development(ServicesPage.java:336)
-	at tests.ServicesPage_Test.view_SoftwareDevelopment_Redirection(ServicesPage_Test.java:587)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>21</td>
-<td>tests.ServicesPage_Test@2667f029</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -147,19 +81,39 @@ Session ID: 370a571c6934161f7f9401e426433e6e
 <td>0</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
+<td title='tests.ServicesPage_Test.RequestAQuote_Dedicated_Support_Team_FormSubmission()'><b>RequestAQuote_Dedicated_Support_Team_FormSubmission</b><br>Test class: tests.ServicesPage_Test</td>
+<td></td>
+<td>6</td>
+<td>tests.ServicesPage_Test@2667f029</td></tr>
+<tr>
+<td title='tests.ServicesPage_Test.Request_A_quote_Shared_SupportRedirection()'><b>Request_A_quote_Shared_SupportRedirection</b><br>Test class: tests.ServicesPage_Test</td>
+<td></td>
+<td>5</td>
+<td>tests.ServicesPage_Test@2667f029</td></tr>
+<tr>
 <td title='tests.ServicesPage_Test.SeeMoreLink_Limitless_Server_Management_Redirection()'><b>SeeMoreLink_Limitless_Server_Management_Redirection</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
 <td>3</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
-<td title='tests.ServicesPage_Test.RequestAQuote_AllIn_One_Hosting_Subject_MandatoryFieldCheck()'><b>RequestAQuote_AllIn_One_Hosting_Subject_MandatoryFieldCheck</b><br>Test class: tests.ServicesPage_Test</td>
+<td title='tests.ServicesPage_Test.RequestAQuote_Dedicated_Support_Team_Subject_MandatoryFieldCheck()'><b>RequestAQuote_Dedicated_Support_Team_Subject_MandatoryFieldCheck</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
 <td>2</td>
+<td>tests.ServicesPage_Test@2667f029</td></tr>
+<tr>
+<td title='tests.ServicesPage_Test.Request_A_quote_Outsourced_Phone_SupportRedirection()'><b>Request_A_quote_Outsourced_Phone_SupportRedirection</b><br>Test class: tests.ServicesPage_Test</td>
+<td></td>
+<td>3</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
 <td title='tests.ServicesPage_Test.RequestAQuote_CloudSupport_FormSubmission()'><b>RequestAQuote_CloudSupport_FormSubmission</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
 <td>6</td>
+<td>tests.ServicesPage_Test@2667f029</td></tr>
+<tr>
+<td title='tests.ServicesPage_Test.RequestAQuote_Semidedicated_Support_Subject_MandatoryFieldCheck()'><b>RequestAQuote_Semidedicated_Support_Subject_MandatoryFieldCheck</b><br>Test class: tests.ServicesPage_Test</td>
+<td></td>
+<td>2</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
 <td title='tests.ServicesPage_Test.viewDashboard_Redirection()'><b>viewDashboard_Redirection</b><br>Test class: tests.ServicesPage_Test</td>
@@ -174,7 +128,12 @@ Session ID: 370a571c6934161f7f9401e426433e6e
 <tr>
 <td title='tests.ServicesPage_Test.viewServices_Redirection()'><b>viewServices_Redirection</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
-<td>1</td>
+<td>2</td>
+<td>tests.ServicesPage_Test@2667f029</td></tr>
+<tr>
+<td title='tests.ServicesPage_Test.RequestAQuote_Shared_Support_Subject_MandatoryFieldCheck()'><b>RequestAQuote_Shared_Support_Subject_MandatoryFieldCheck</b><br>Test class: tests.ServicesPage_Test</td>
+<td></td>
+<td>2</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
 <td title='tests.ServicesPage_Test.Add_Services_Redirection()'><b>Add_Services_Redirection</b><br>Test class: tests.ServicesPage_Test</td>
@@ -189,7 +148,12 @@ Session ID: 370a571c6934161f7f9401e426433e6e
 <tr>
 <td title='tests.ServicesPage_Test.Affordable_MonitoringPlanCheck()'><b>Affordable_MonitoringPlanCheck</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
-<td>24</td>
+<td>23</td>
+<td>tests.ServicesPage_Test@2667f029</td></tr>
+<tr>
+<td title='tests.ServicesPage_Test.Calls_Per_Month_Outsourced_Phone_SupportCheck()'><b>Calls_Per_Month_Outsourced_Phone_SupportCheck</b><br>Test class: tests.ServicesPage_Test</td>
+<td></td>
+<td>23</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
 <td title='tests.ServicesPage_Test.RequestAQuote_CloudSupport_Subject_MandatoryFieldCheck()'><b>RequestAQuote_CloudSupport_Subject_MandatoryFieldCheck</b><br>Test class: tests.ServicesPage_Test</td>
@@ -202,9 +166,19 @@ Session ID: 370a571c6934161f7f9401e426433e6e
 <td>25</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
-<td title='tests.ServicesPage_Test.RequestAQuote_Dedicated_Support_Team_FormSubmission()'><b>RequestAQuote_Dedicated_Support_Team_FormSubmission</b><br>Test class: tests.ServicesPage_Test</td>
+<td title='tests.ServicesPage_Test.Request_A_quote_DedicatedSupportTeamRedirection()'><b>Request_A_quote_DedicatedSupportTeamRedirection</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
-<td>7</td>
+<td>4</td>
+<td>tests.ServicesPage_Test@2667f029</td></tr>
+<tr>
+<td title='tests.ServicesPage_Test.RequestAQuote_Semidedicated_Support_FormSubmission()'><b>RequestAQuote_Semidedicated_Support_FormSubmission</b><br>Test class: tests.ServicesPage_Test</td>
+<td></td>
+<td>5</td>
+<td>tests.ServicesPage_Test@2667f029</td></tr>
+<tr>
+<td title='tests.ServicesPage_Test.RequestAQuote_AllIn_One_Hosting_Subject_MandatoryFieldCheck()'><b>RequestAQuote_AllIn_One_Hosting_Subject_MandatoryFieldCheck</b><br>Test class: tests.ServicesPage_Test</td>
+<td></td>
+<td>2</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
 <td title='tests.ServicesPage_Test.RequestAQuote_Dedicated_Support_Engineers_MandatoryValidationCheck()'><b>RequestAQuote_Dedicated_Support_Engineers_MandatoryValidationCheck</b><br>Test class: tests.ServicesPage_Test</td>
@@ -212,19 +186,19 @@ Session ID: 370a571c6934161f7f9401e426433e6e
 <td>2</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
-<td title='tests.ServicesPage_Test.RequestAQuote_Shared_Support_FormSubmission()'><b>RequestAQuote_Shared_Support_FormSubmission</b><br>Test class: tests.ServicesPage_Test</td>
-<td></td>
-<td>7</td>
-<td>tests.ServicesPage_Test@2667f029</td></tr>
-<tr>
 <td title='tests.ServicesPage_Test.RequestAQuote_Dedicated_Support_Engineers_FormSubmission()'><b>RequestAQuote_Dedicated_Support_Engineers_FormSubmission</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
-<td>9</td>
+<td>4</td>
+<td>tests.ServicesPage_Test@2667f029</td></tr>
+<tr>
+<td title='tests.ServicesPage_Test.Request_A_quote_Semidedicated_SupportRedirection()'><b>Request_A_quote_Semidedicated_SupportRedirection</b><br>Test class: tests.ServicesPage_Test</td>
+<td></td>
+<td>5</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
 <td title='tests.ServicesPage_Test.Limitless_Server_Management_AnnuallyPlanCheck()'><b>Limitless_Server_Management_AnnuallyPlanCheck</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
-<td>27</td>
+<td>25</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
 <td title='tests.ServicesPage_Test.view_Outsourced_SupportRedirection()'><b>view_Outsourced_SupportRedirection</b><br>Test class: tests.ServicesPage_Test</td>
@@ -239,42 +213,12 @@ Session ID: 370a571c6934161f7f9401e426433e6e
 <tr>
 <td title='tests.ServicesPage_Test.view_CloudSupport_PlansRedirection()'><b>view_CloudSupport_PlansRedirection</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
-<td>4</td>
-<td>tests.ServicesPage_Test@2667f029</td></tr>
-<tr>
-<td title='tests.ServicesPage_Test.SeeMoreLink_ServerManagement_Redirection()'><b>SeeMoreLink_ServerManagement_Redirection</b><br>Test class: tests.ServicesPage_Test</td>
-<td></td>
-<td>2</td>
-<td>tests.ServicesPage_Test@2667f029</td></tr>
-<tr>
-<td title='tests.ServicesPage_Test.Request_A_quote_DedicatedSupportTeamRedirection()'><b>Request_A_quote_DedicatedSupportTeamRedirection</b><br>Test class: tests.ServicesPage_Test</td>
-<td></td>
 <td>5</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
-<td title='tests.ServicesPage_Test.Limitless_Server_Management_QuarterlyPlanCheck()'><b>Limitless_Server_Management_QuarterlyPlanCheck</b><br>Test class: tests.ServicesPage_Test</td>
-<td></td>
-<td>26</td>
-<td>tests.ServicesPage_Test@2667f029</td></tr>
-<tr>
-<td title='tests.ServicesPage_Test.SeeMoreLink_Limitless_Priority_Support_Redirection()'><b>SeeMoreLink_Limitless_Priority_Support_Redirection</b><br>Test class: tests.ServicesPage_Test</td>
+<td title='tests.ServicesPage_Test.view_SoftwareDevelopment_Redirection()'><b>view_SoftwareDevelopment_Redirection</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
 <td>3</td>
-<td>tests.ServicesPage_Test@2667f029</td></tr>
-<tr>
-<td title='tests.ServicesPage_Test.RequestAQuote_AllIn_One_Hosting_SupportRedirection()'><b>RequestAQuote_AllIn_One_Hosting_SupportRedirection</b><br>Test class: tests.ServicesPage_Test</td>
-<td></td>
-<td>5</td>
-<td>tests.ServicesPage_Test@2667f029</td></tr>
-<tr>
-<td title='tests.ServicesPage_Test.ServerManagementMonitoringAnnuallyPlanCheck()'><b>ServerManagementMonitoringAnnuallyPlanCheck</b><br>Test class: tests.ServicesPage_Test</td>
-<td></td>
-<td>28</td>
-<td>tests.ServicesPage_Test@2667f029</td></tr>
-<tr>
-<td title='tests.ServicesPage_Test.RequestAQuote_Dedicated_Support_Team_Subject_MandatoryFieldCheck()'><b>RequestAQuote_Dedicated_Support_Team_Subject_MandatoryFieldCheck</b><br>Test class: tests.ServicesPage_Test</td>
-<td></td>
-<td>4</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
 <td title='tests.ServicesPage_Test.RequestAQuote_AllIn_One_Hosting_FormSubmission()'><b>RequestAQuote_AllIn_One_Hosting_FormSubmission</b><br>Test class: tests.ServicesPage_Test</td>
@@ -282,9 +226,29 @@ Session ID: 370a571c6934161f7f9401e426433e6e
 <td>6</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
-<td title='tests.ServicesPage_Test.RequestAQuote_Semidedicated_Support_FormSubmission()'><b>RequestAQuote_Semidedicated_Support_FormSubmission</b><br>Test class: tests.ServicesPage_Test</td>
+<td title='tests.ServicesPage_Test.SeeMoreLink_ServerManagement_Redirection()'><b>SeeMoreLink_ServerManagement_Redirection</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
-<td>6</td>
+<td>2</td>
+<td>tests.ServicesPage_Test@2667f029</td></tr>
+<tr>
+<td title='tests.ServicesPage_Test.Limitless_Server_Management_QuarterlyPlanCheck()'><b>Limitless_Server_Management_QuarterlyPlanCheck</b><br>Test class: tests.ServicesPage_Test</td>
+<td></td>
+<td>30</td>
+<td>tests.ServicesPage_Test@2667f029</td></tr>
+<tr>
+<td title='tests.ServicesPage_Test.SeeMoreLink_Limitless_Priority_Support_Redirection()'><b>SeeMoreLink_Limitless_Priority_Support_Redirection</b><br>Test class: tests.ServicesPage_Test</td>
+<td></td>
+<td>3</td>
+<td>tests.ServicesPage_Test@2667f029</td></tr>
+<tr>
+<td title='tests.ServicesPage_Test.ServerManagementMonitoringAnnuallyPlanCheck()'><b>ServerManagementMonitoringAnnuallyPlanCheck</b><br>Test class: tests.ServicesPage_Test</td>
+<td></td>
+<td>26</td>
+<td>tests.ServicesPage_Test@2667f029</td></tr>
+<tr>
+<td title='tests.ServicesPage_Test.Minutes_Per_Month_Outsourced_Phone_SupportCheck()'><b>Minutes_Per_Month_Outsourced_Phone_SupportCheck</b><br>Test class: tests.ServicesPage_Test</td>
+<td></td>
+<td>22</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
 <td title='tests.ServicesPage_Test.Request_A_quote_Dedicated_Support_Engineers_Redirection()'><b>Request_A_quote_Dedicated_Support_Engineers_Redirection</b><br>Test class: tests.ServicesPage_Test</td>
@@ -292,54 +256,29 @@ Session ID: 370a571c6934161f7f9401e426433e6e
 <td>3</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
-<td title='tests.ServicesPage_Test.Request_A_quote_Semidedicated_SupportRedirection()'><b>Request_A_quote_Semidedicated_SupportRedirection</b><br>Test class: tests.ServicesPage_Test</td>
-<td></td>
-<td>4</td>
-<td>tests.ServicesPage_Test@2667f029</td></tr>
-<tr>
-<td title='tests.ServicesPage_Test.RequestAQuote_Shared_Support_Subject_MandatoryFieldCheck()'><b>RequestAQuote_Shared_Support_Subject_MandatoryFieldCheck</b><br>Test class: tests.ServicesPage_Test</td>
-<td></td>
-<td>2</td>
-<td>tests.ServicesPage_Test@2667f029</td></tr>
-<tr>
 <td title='tests.ServicesPage_Test.Limitless_Priority_Support_AnnuallyPlanCheck()'><b>Limitless_Priority_Support_AnnuallyPlanCheck</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
-<td>27</td>
+<td>25</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
 <td title='tests.ServicesPage_Test.ServerManagementMonitoringQuarterlyPlanCheck()'><b>ServerManagementMonitoringQuarterlyPlanCheck</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
-<td>39</td>
-<td>tests.ServicesPage_Test@2667f029</td></tr>
-<tr>
-<td title='tests.ServicesPage_Test.Request_A_quote_Outsourced_Phone_SupportRedirection()'><b>Request_A_quote_Outsourced_Phone_SupportRedirection</b><br>Test class: tests.ServicesPage_Test</td>
-<td></td>
-<td>4</td>
-<td>tests.ServicesPage_Test@2667f029</td></tr>
-<tr>
-<td title='tests.ServicesPage_Test.RequestAQuote_Semidedicated_Support_Subject_MandatoryFieldCheck()'><b>RequestAQuote_Semidedicated_Support_Subject_MandatoryFieldCheck</b><br>Test class: tests.ServicesPage_Test</td>
-<td></td>
-<td>2</td>
-<td>tests.ServicesPage_Test@2667f029</td></tr>
-<tr>
-<td title='tests.ServicesPage_Test.Minutes_Per_Month_Outsourced_Phone_SupportCheck()'><b>Minutes_Per_Month_Outsourced_Phone_SupportCheck</b><br>Test class: tests.ServicesPage_Test</td>
-<td></td>
-<td>23</td>
+<td>34</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
 <td title='tests.ServicesPage_Test.pagination()'><b>pagination</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
-<td>17</td>
+<td>15</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
-<td title='tests.ServicesPage_Test.Request_A_quote_Shared_SupportRedirection()'><b>Request_A_quote_Shared_SupportRedirection</b><br>Test class: tests.ServicesPage_Test</td>
+<td title='tests.ServicesPage_Test.RequestAQuote_AllIn_One_Hosting_SupportRedirection()'><b>RequestAQuote_AllIn_One_Hosting_SupportRedirection</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
 <td>5</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 <tr>
-<td title='tests.ServicesPage_Test.Calls_Per_Month_Outsourced_Phone_SupportCheck()'><b>Calls_Per_Month_Outsourced_Phone_SupportCheck</b><br>Test class: tests.ServicesPage_Test</td>
+<td title='tests.ServicesPage_Test.RequestAQuote_Shared_Support_FormSubmission()'><b>RequestAQuote_Shared_Support_FormSubmission</b><br>Test class: tests.ServicesPage_Test</td>
 <td></td>
-<td>23</td>
+<td>5</td>
 <td>tests.ServicesPage_Test@2667f029</td></tr>
 </table><p>
 </body>

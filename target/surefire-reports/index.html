@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">41 methods, 1 failed,   40 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.ServicesPage_Test" class="method navigator-link" hash-for-method="view_SoftwareDevelopment_Redirection">view_SoftwareDevelopment_Redirection</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">41 methods,   41 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -315,6 +301,11 @@
                         <a href="#" panel-name="suite-Suite" title="tests.ServicesPage_Test" class="method navigator-link" hash-for-method="view_Outsourced_SupportRedirection">view_Outsourced_SupportRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.ServicesPage_Test" class="method navigator-link" hash-for-method="view_SoftwareDevelopment_Redirection">view_SoftwareDevelopment_Redirection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -327,34 +318,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">tests.ServicesPage_Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="view_SoftwareDevelopment_Redirection">
-                  </a> <!-- view_SoftwareDevelopment_Redirection -->
-                  <span class="method-name">view_SoftwareDevelopment_Redirection</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//a[@href=&apos;https://portal.bobcares.com/web-dev-design/service-categories&apos;])[1] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-23-generic&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39139}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:39139/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 370a571c6934161f7f9401e426433e6e
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at pages.ServicesPage.Click_Software_Development(ServicesPage.java:336)
-	at tests.ServicesPage_Test.view_SoftwareDevelopment_Redirection(ServicesPage_Test.java:587)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -641,6 +604,13 @@ Session ID: 370a571c6934161f7f9401e426433e6e
                   <span class="method-name">view_Outsourced_SupportRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="view_SoftwareDevelopment_Redirection">
+                  </a> <!-- view_SoftwareDevelopment_Redirection -->
+                  <span class="method-name">view_SoftwareDevelopment_Redirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
@@ -699,167 +669,167 @@ data.addRows(41);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ServerManagementMonitoringQuarterlyPlanCheck')
 data.setCell(0, 2, 'tests.ServicesPage_Test')
-data.setCell(0, 3, 39543);
+data.setCell(0, 3, 34348);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ServerManagementMonitoringAnnuallyPlanCheck')
+data.setCell(1, 1, 'Limitless_Server_Management_QuarterlyPlanCheck')
 data.setCell(1, 2, 'tests.ServicesPage_Test')
-data.setCell(1, 3, 28038);
+data.setCell(1, 3, 30463);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Limitless_Priority_Support_AnnuallyPlanCheck')
+data.setCell(2, 1, 'ServerManagementMonitoringAnnuallyPlanCheck')
 data.setCell(2, 2, 'tests.ServicesPage_Test')
-data.setCell(2, 3, 27360);
+data.setCell(2, 3, 26997);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Limitless_Server_Management_AnnuallyPlanCheck')
+data.setCell(3, 1, 'Limitless_Priority_Support_AnnuallyPlanCheck')
 data.setCell(3, 2, 'tests.ServicesPage_Test')
-data.setCell(3, 3, 27292);
+data.setCell(3, 3, 25799);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Limitless_Server_Management_QuarterlyPlanCheck')
+data.setCell(4, 1, 'Limitless_Server_Management_AnnuallyPlanCheck')
 data.setCell(4, 2, 'tests.ServicesPage_Test')
-data.setCell(4, 3, 26358);
+data.setCell(4, 3, 25285);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'Limitless_Priority_Support_QuarterlyPlanCheck')
 data.setCell(5, 2, 'tests.ServicesPage_Test')
-data.setCell(5, 3, 25945);
+data.setCell(5, 3, 25239);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Affordable_MonitoringPlanCheck')
+data.setCell(6, 1, 'Calls_Per_Month_Outsourced_Phone_SupportCheck')
 data.setCell(6, 2, 'tests.ServicesPage_Test')
-data.setCell(6, 3, 24044);
+data.setCell(6, 3, 23558);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Minutes_Per_Month_Outsourced_Phone_SupportCheck')
+data.setCell(7, 1, 'Affordable_MonitoringPlanCheck')
 data.setCell(7, 2, 'tests.ServicesPage_Test')
-data.setCell(7, 3, 23909);
+data.setCell(7, 3, 23349);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'Calls_Per_Month_Outsourced_Phone_SupportCheck')
+data.setCell(8, 1, 'Vulnerability_ScanPlanCheck')
 data.setCell(8, 2, 'tests.ServicesPage_Test')
-data.setCell(8, 3, 23795);
+data.setCell(8, 3, 23025);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'Vulnerability_ScanPlanCheck')
+data.setCell(9, 1, 'Minutes_Per_Month_Outsourced_Phone_SupportCheck')
 data.setCell(9, 2, 'tests.ServicesPage_Test')
-data.setCell(9, 3, 23169);
+data.setCell(9, 3, 22915);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'view_SoftwareDevelopment_Redirection')
+data.setCell(10, 1, 'pagination')
 data.setCell(10, 2, 'tests.ServicesPage_Test')
-data.setCell(10, 3, 21865);
+data.setCell(10, 3, 15827);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'pagination')
+data.setCell(11, 1, 'RequestAQuote_Dedicated_Support_Team_FormSubmission')
 data.setCell(11, 2, 'tests.ServicesPage_Test')
-data.setCell(11, 3, 17101);
+data.setCell(11, 3, 6252);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'RequestAQuote_Dedicated_Support_Engineers_FormSubmission')
+data.setCell(12, 1, 'RequestAQuote_AllIn_One_Hosting_FormSubmission')
 data.setCell(12, 2, 'tests.ServicesPage_Test')
-data.setCell(12, 3, 9008);
+data.setCell(12, 3, 6222);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'RequestAQuote_Dedicated_Support_Team_FormSubmission')
+data.setCell(13, 1, 'RequestAQuote_CloudSupport_FormSubmission')
 data.setCell(13, 2, 'tests.ServicesPage_Test')
-data.setCell(13, 3, 7459);
+data.setCell(13, 3, 6221);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'RequestAQuote_Shared_Support_FormSubmission')
+data.setCell(14, 1, 'RequestAQuote_Semidedicated_Support_FormSubmission')
 data.setCell(14, 2, 'tests.ServicesPage_Test')
-data.setCell(14, 3, 7270);
+data.setCell(14, 3, 5936);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'RequestAQuote_Semidedicated_Support_FormSubmission')
+data.setCell(15, 1, 'RequestAQuote_Shared_Support_FormSubmission')
 data.setCell(15, 2, 'tests.ServicesPage_Test')
-data.setCell(15, 3, 6680);
+data.setCell(15, 3, 5724);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'RequestAQuote_CloudSupport_FormSubmission')
+data.setCell(16, 1, 'view_CloudSupport_PlansRedirection')
 data.setCell(16, 2, 'tests.ServicesPage_Test')
-data.setCell(16, 3, 6569);
+data.setCell(16, 3, 5134);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'RequestAQuote_AllIn_One_Hosting_FormSubmission')
+data.setCell(17, 1, 'Request_A_quote_Semidedicated_SupportRedirection')
 data.setCell(17, 2, 'tests.ServicesPage_Test')
-data.setCell(17, 3, 6270);
+data.setCell(17, 3, 5085);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'Request_A_quote_Shared_SupportRedirection')
+data.setCell(18, 1, 'RequestAQuote_AllIn_One_Hosting_SupportRedirection')
 data.setCell(18, 2, 'tests.ServicesPage_Test')
-data.setCell(18, 3, 5950);
+data.setCell(18, 3, 5047);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'RequestAQuote_AllIn_One_Hosting_SupportRedirection')
+data.setCell(19, 1, 'Request_A_quote_Shared_SupportRedirection')
 data.setCell(19, 2, 'tests.ServicesPage_Test')
-data.setCell(19, 3, 5311);
+data.setCell(19, 3, 5006);
 data.setCell(20, 0, 20)
 data.setCell(20, 1, 'Request_A_quote_DedicatedSupportTeamRedirection')
 data.setCell(20, 2, 'tests.ServicesPage_Test')
-data.setCell(20, 3, 5207);
+data.setCell(20, 3, 4336);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'Request_A_quote_Semidedicated_SupportRedirection')
+data.setCell(21, 1, 'RequestAQuote_Dedicated_Support_Engineers_FormSubmission')
 data.setCell(21, 2, 'tests.ServicesPage_Test')
-data.setCell(21, 3, 4922);
+data.setCell(21, 3, 4109);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'view_CloudSupport_PlansRedirection')
+data.setCell(22, 1, 'view_SoftwareDevelopment_Redirection')
 data.setCell(22, 2, 'tests.ServicesPage_Test')
-data.setCell(22, 3, 4530);
+data.setCell(22, 3, 3975);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'RequestAQuote_Dedicated_Support_Team_Subject_MandatoryFieldCheck')
+data.setCell(23, 1, 'Request_A_quote_Outsourced_Phone_SupportRedirection')
 data.setCell(23, 2, 'tests.ServicesPage_Test')
-data.setCell(23, 3, 4203);
+data.setCell(23, 3, 3719);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'Request_A_quote_Outsourced_Phone_SupportRedirection')
+data.setCell(24, 1, 'SeeMoreLink_Limitless_Priority_Support_Redirection')
 data.setCell(24, 2, 'tests.ServicesPage_Test')
-data.setCell(24, 3, 4135);
+data.setCell(24, 3, 3691);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'SeeMoreLink_Limitless_Server_Management_Redirection')
+data.setCell(25, 1, 'Request_A_quote_Dedicated_Support_Engineers_Redirection')
 data.setCell(25, 2, 'tests.ServicesPage_Test')
-data.setCell(25, 3, 3212);
+data.setCell(25, 3, 3141);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'SeeMoreLink_Limitless_Priority_Support_Redirection')
+data.setCell(26, 1, 'viewDashboard_Redirection')
 data.setCell(26, 2, 'tests.ServicesPage_Test')
-data.setCell(26, 3, 3170);
+data.setCell(26, 3, 3091);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'viewDashboard_Redirection')
+data.setCell(27, 1, 'SeeMoreLink_Limitless_Server_Management_Redirection')
 data.setCell(27, 2, 'tests.ServicesPage_Test')
-data.setCell(27, 3, 3088);
+data.setCell(27, 3, 3025);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'Request_A_quote_Dedicated_Support_Engineers_Redirection')
+data.setCell(28, 1, 'RequestAQuote_CloudSupport_Subject_MandatoryFieldCheck')
 data.setCell(28, 2, 'tests.ServicesPage_Test')
-data.setCell(28, 3, 3067);
+data.setCell(28, 3, 2737);
 data.setCell(29, 0, 29)
 data.setCell(29, 1, 'RequestAQuote_Dedicated_Support_Engineers_MandatoryValidationCheck')
 data.setCell(29, 2, 'tests.ServicesPage_Test')
-data.setCell(29, 3, 2859);
+data.setCell(29, 3, 2723);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'RequestAQuote_AllIn_One_Hosting_Subject_MandatoryFieldCheck')
+data.setCell(30, 1, 'SeeMoreLink_ServerManagement_Redirection')
 data.setCell(30, 2, 'tests.ServicesPage_Test')
-data.setCell(30, 3, 2857);
+data.setCell(30, 3, 2655);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'SeeMoreLink_ServerManagement_Redirection')
+data.setCell(31, 1, 'RequestAQuote_Semidedicated_Support_Subject_MandatoryFieldCheck')
 data.setCell(31, 2, 'tests.ServicesPage_Test')
-data.setCell(31, 3, 2695);
+data.setCell(31, 3, 2472);
 data.setCell(32, 0, 32)
-data.setCell(32, 1, 'RequestAQuote_CloudSupport_Subject_MandatoryFieldCheck')
+data.setCell(32, 1, 'RequestAQuote_AllIn_One_Hosting_Subject_MandatoryFieldCheck')
 data.setCell(32, 2, 'tests.ServicesPage_Test')
-data.setCell(32, 3, 2586);
+data.setCell(32, 3, 2407);
 data.setCell(33, 0, 33)
 data.setCell(33, 1, 'RequestAQuote_Shared_Support_Subject_MandatoryFieldCheck')
 data.setCell(33, 2, 'tests.ServicesPage_Test')
-data.setCell(33, 3, 2482);
+data.setCell(33, 3, 2297);
 data.setCell(34, 0, 34)
-data.setCell(34, 1, 'RequestAQuote_Semidedicated_Support_Subject_MandatoryFieldCheck')
+data.setCell(34, 1, 'RequestAQuote_Dedicated_Support_Team_Subject_MandatoryFieldCheck')
 data.setCell(34, 2, 'tests.ServicesPage_Test')
-data.setCell(34, 3, 2348);
+data.setCell(34, 3, 2244);
 data.setCell(35, 0, 35)
 data.setCell(35, 1, 'RequestAQuote_Dedicated_Support_Engineers_ViewTicket')
 data.setCell(35, 2, 'tests.ServicesPage_Test')
-data.setCell(35, 3, 2122);
+data.setCell(35, 3, 2032);
 data.setCell(36, 0, 36)
 data.setCell(36, 1, 'viewServices_Redirection')
 data.setCell(36, 2, 'tests.ServicesPage_Test')
-data.setCell(36, 3, 1643);
+data.setCell(36, 3, 2008);
 data.setCell(37, 0, 37)
 data.setCell(37, 1, 'Add_Services_Redirection')
 data.setCell(37, 2, 'tests.ServicesPage_Test')
-data.setCell(37, 3, 1574);
+data.setCell(37, 3, 1629);
 data.setCell(38, 0, 38)
-data.setCell(38, 1, 'view_Outsourced_SupportRedirection')
+data.setCell(38, 1, 'viewServerManagement_Redirection')
 data.setCell(38, 2, 'tests.ServicesPage_Test')
-data.setCell(38, 3, 94);
+data.setCell(38, 3, 78);
 data.setCell(39, 0, 39)
-data.setCell(39, 1, 'viewServerManagement_Redirection')
+data.setCell(39, 1, 'view_Outsourced_SupportRedirection')
 data.setCell(39, 2, 'tests.ServicesPage_Test')
-data.setCell(39, 3, 70);
+data.setCell(39, 3, 62);
 data.setCell(40, 0, 40)
 data.setCell(40, 1, 'RequestAQuote_Dedicated_Support_Engineers_SubjectDisplayCheck')
 data.setCell(40, 2, 'tests.ServicesPage_Test')
-data.setCell(40, 3, 17);
+data.setCell(40, 3, 20);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -897,169 +867,167 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">viewServices_Redirection</span>
-                <span class="method-start">16195 ms</span>
+                <span class="method-start">13492 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">pagination</span>
-                <span class="method-start">17840 ms</span>
+                <span class="method-start">15503 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Add_Services_Redirection</span>
-                <span class="method-start">34943 ms</span>
+                <span class="method-start">31332 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">viewDashboard_Redirection</span>
-                <span class="method-start">36517 ms</span>
+                <span class="method-start">32962 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">viewServerManagement_Redirection</span>
-                <span class="method-start">39606 ms</span>
+                <span class="method-start">36054 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SeeMoreLink_ServerManagement_Redirection</span>
-                <span class="method-start">39677 ms</span>
+                <span class="method-start">36134 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ServerManagementMonitoringQuarterlyPlanCheck</span>
-                <span class="method-start">42373 ms</span>
+                <span class="method-start">38790 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ServerManagementMonitoringAnnuallyPlanCheck</span>
-                <span class="method-start">81918 ms</span>
+                <span class="method-start">73139 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SeeMoreLink_Limitless_Server_Management_Redirection</span>
-                <span class="method-start">109957 ms</span>
+                <span class="method-start">100137 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Limitless_Server_Management_QuarterlyPlanCheck</span>
-                <span class="method-start">113170 ms</span>
+                <span class="method-start">103163 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Limitless_Server_Management_AnnuallyPlanCheck</span>
-                <span class="method-start">139529 ms</span>
+                <span class="method-start">133627 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SeeMoreLink_Limitless_Priority_Support_Redirection</span>
-                <span class="method-start">166822 ms</span>
+                <span class="method-start">158913 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Limitless_Priority_Support_QuarterlyPlanCheck</span>
-                <span class="method-start">169992 ms</span>
+                <span class="method-start">162605 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Limitless_Priority_Support_AnnuallyPlanCheck</span>
-                <span class="method-start">195938 ms</span>
+                <span class="method-start">187845 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Vulnerability_ScanPlanCheck</span>
-                <span class="method-start">223298 ms</span>
+                <span class="method-start">213644 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Affordable_MonitoringPlanCheck</span>
-                <span class="method-start">246467 ms</span>
+                <span class="method-start">236671 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">view_Outsourced_SupportRedirection</span>
-                <span class="method-start">270512 ms</span>
+                <span class="method-start">260021 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Request_A_quote_Dedicated_Support_Engineers_Redirection</span>
-                <span class="method-start">270607 ms</span>
+                <span class="method-start">260083 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RequestAQuote_Dedicated_Support_Engineers_SubjectDisplayCheck</span>
-                <span class="method-start">273675 ms</span>
+                <span class="method-start">263225 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RequestAQuote_Dedicated_Support_Engineers_MandatoryValidationCheck</span>
-                <span class="method-start">273692 ms</span>
+                <span class="method-start">263245 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RequestAQuote_Dedicated_Support_Engineers_FormSubmission</span>
-                <span class="method-start">276553 ms</span>
+                <span class="method-start">265969 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RequestAQuote_Dedicated_Support_Engineers_ViewTicket</span>
-                <span class="method-start">285562 ms</span>
+                <span class="method-start">270078 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Request_A_quote_DedicatedSupportTeamRedirection</span>
-                <span class="method-start">287684 ms</span>
+                <span class="method-start">272110 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RequestAQuote_Dedicated_Support_Team_Subject_MandatoryFieldCheck</span>
-                <span class="method-start">292891 ms</span>
+                <span class="method-start">276447 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RequestAQuote_Dedicated_Support_Team_FormSubmission</span>
-                <span class="method-start">297094 ms</span>
+                <span class="method-start">278692 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Request_A_quote_Semidedicated_SupportRedirection</span>
-                <span class="method-start">304554 ms</span>
+                <span class="method-start">284944 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RequestAQuote_Semidedicated_Support_Subject_MandatoryFieldCheck</span>
-                <span class="method-start">309477 ms</span>
+                <span class="method-start">290030 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RequestAQuote_Semidedicated_Support_FormSubmission</span>
-                <span class="method-start">311826 ms</span>
+                <span class="method-start">292503 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Request_A_quote_Shared_SupportRedirection</span>
-                <span class="method-start">318507 ms</span>
+                <span class="method-start">298439 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RequestAQuote_Shared_Support_Subject_MandatoryFieldCheck</span>
-                <span class="method-start">324458 ms</span>
+                <span class="method-start">303446 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RequestAQuote_Shared_Support_FormSubmission</span>
-                <span class="method-start">326941 ms</span>
+                <span class="method-start">305744 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Request_A_quote_Outsourced_Phone_SupportRedirection</span>
-                <span class="method-start">334212 ms</span>
+                <span class="method-start">311468 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Minutes_Per_Month_Outsourced_Phone_SupportCheck</span>
-                <span class="method-start">338348 ms</span>
+                <span class="method-start">315188 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Calls_Per_Month_Outsourced_Phone_SupportCheck</span>
-                <span class="method-start">362257 ms</span>
+                <span class="method-start">338103 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RequestAQuote_AllIn_One_Hosting_SupportRedirection</span>
-                <span class="method-start">386054 ms</span>
+                <span class="method-start">361661 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RequestAQuote_AllIn_One_Hosting_Subject_MandatoryFieldCheck</span>
-                <span class="method-start">391366 ms</span>
+                <span class="method-start">366709 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RequestAQuote_AllIn_One_Hosting_FormSubmission</span>
-                <span class="method-start">394224 ms</span>
+                <span class="method-start">369116 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">view_CloudSupport_PlansRedirection</span>
-                <span class="method-start">400495 ms</span>
+                <span class="method-start">375339 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RequestAQuote_CloudSupport_Subject_MandatoryFieldCheck</span>
-                <span class="method-start">405026 ms</span>
+                <span class="method-start">380473 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">RequestAQuote_CloudSupport_FormSubmission</span>
-                <span class="method-start">407613 ms</span>
+                <span class="method-start">383211 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">view_SoftwareDevelopment_Redirection</span>
-                <span class="method-start">414183 ms</span>
+                <span class="method-start">389432 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
